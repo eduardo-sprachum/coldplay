@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+
+.header{
+  background-color: rgb(13, 48, 13);
+  color: white;
+  font-size: 50px;
+  font-family: "Pirata One";
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0px;
+  align-items: center;
+}
+
+
+.logo header{
+    width: 120px;
+    height: 120px;
+}
+
+.cabeçalho-lista {
+  font-size: 125%;
+  color: white;
+  font-family: "Bebas Neue";
+}
+
+
+.rodapé{
+  background-color: rgb(28, 29, 28);
+  color: rgb(200, 130, 0);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.rodapé-imagem{
+  width: 70px;
+}
+
+.rodapé-ícone{
+  width: 40px;
+}
