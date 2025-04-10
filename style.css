@@ -28,6 +28,20 @@ body{
   font-family: "Bebas Neue";
 }
 
+.Instagram{
+  width: 200px;
+  height: 200px;
+}
+
+.Spotify{
+  width: 200px;
+  height: 200px;
+}
+
+.YouTube{
+  width: 200px;
+  height: 200px;
+}
 
 .rodapé{
   background-color: rgb(28, 29, 28);
