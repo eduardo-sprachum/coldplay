@@ -1,62 +1,96 @@
-body{
-    background-color: rgb(255, 255, 255);
-    color:rgb(0, 0, 0);
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.header{
+.header {
   background-color: rgb(13, 48, 13);
   color: white;
   font-size: 30px;
-  font-family: "Pirata One";
+  font-family: "Pirata One", cursive;
   display: flex;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0px;
+  justify-content: space-between;
+  padding: 10px 30px;
   align-items: center;
 }
 
-
-.logo{
-  align-items: left;
-    width: 500px;
-    height: 200px;
+.logo {
+  width: 300px;
+  height: auto;
 }
 
-.navigation_header {
-  font-size: 125%;
+.navigation_header a {
   color: white;
-  font-family: "Bebas Neue";
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 20px;
+  font-family: "Bebas Neue", sans-serif;
 }
 
-.YouTube{
-  width: 50px;
-  height: 50px;
+.navigation_header a:hover {
+  text-decoration: underline;
 }
 
-.Spotify{
-  width: 50px;
-  height: 50px;
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 40px 20px;
 }
 
-.Instagram{
-  width: 50px;
-  height: 50px;
+.boxes {
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.rodapé{
+.boxes img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.boxes span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  padding: 0 30px 40px;
+  text-align: justify;
+}
+
+.linha {
+  border-top: 2px solid #ccc;
+  margin: 40px 0;
+}
+
+.rodapé {
   background-color: rgb(28, 29, 28);
   color: rgb(200, 130, 0);
   font-size: 20px;
   display: flex;
-  justify-content: space-around;
-  padding: 20px 0;
+  justify-content: space-between;
+  padding: 20px 30px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.rodapé-imagem{
-  width: 70px;
+.rodapé-título {
+  margin: 0;
 }
 
-.rodapé-ícone{
-  width: 40px;
+.rodapé-ícone {
+  width: 35px;
 }
