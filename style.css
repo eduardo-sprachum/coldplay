@@ -94,3 +94,28 @@ p {
 .rodapé-ícone {
   width: 35px;
 }
+
+#galeria {
+  padding: 40px 30px;
+  background-color: #f0f0f0;
+}
+
+.galeria-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.galeria-container img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.galeria-container img:hover {
+  transform: scale(1.05);
+}
