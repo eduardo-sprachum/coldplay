@@ -96,27 +96,25 @@ p {
 }
 
 #galeria {
-  padding: 40px 30px;
+  padding: 40px 0;
   background-color: #f0f0f0;
 }
 
 .galeria-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+  grid-template-columns: 1fr 1fr; /* Duas colunas fixas */
   gap: 20px;
-  justify-items: center;
-  margin-top: 20px;
+  padding: 0 40px;
 }
 
 .galeria-container img {
   width: 100%;
-  max-width: 350px;
   height: auto;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease;
 }
 
 .galeria-container img:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
