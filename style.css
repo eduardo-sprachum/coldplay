@@ -101,15 +101,16 @@ p {
 }
 
 .galeria-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
   gap: 20px;
+  justify-items: center;
   margin-top: 20px;
 }
 
 .galeria-container img {
-  width: 250px;
+  width: 100%;
+  max-width: 350px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
